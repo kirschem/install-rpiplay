@@ -3,7 +3,7 @@ Simple bash script to install [rpiplay](https://github.com/FD-/RPiPlay) on a Ras
 
 # Usage
 ```bash
-git clone
+git clone https://github.com/kirschem/install-rpiplay
 cd install-rpiplay
 chmod +x install.sh
 sudo install.sh
