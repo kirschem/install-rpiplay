@@ -1,0 +1,10 @@
+[Unit]
+Description=rpiplay (AirPlay for Raspberry Pi)
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/rpiplay
+
+[Install]
+WantedBy=multi-user.target
