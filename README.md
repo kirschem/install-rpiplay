@@ -1,5 +1,5 @@
 # About
-Simple bash script to install [rpiplay](https://github.com/FD-/RPiPlay) on a Raspberry Pi and it to autostart.
+Simple bash script to install [rpiplay](https://github.com/FD-/RPiPlay) on a Raspberry Pi and add it to autostart.
 
 # Usage
 Run on your Raspberry Pi:
@@ -7,5 +7,5 @@ Run on your Raspberry Pi:
 git clone https://github.com/kirschem/install-rpiplay
 cd install-rpiplay
 chmod +x install.sh
-sudo install.sh
+sudo ./install.sh
 ```
