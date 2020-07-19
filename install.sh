@@ -16,7 +16,9 @@ make
 
 cp ./rpiplay /usr/bin/
 
-cp rpiplay.service /lib/systemd/system/
+cd ../../
+
+cp ./rpiplay.service /lib/systemd/system/
 chmod 644 /lib/systemd/system/rpiplay.service
 sudo systemctl daemon-reload
 sudo systemctl enable rpiplay.service
